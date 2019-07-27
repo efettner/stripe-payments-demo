@@ -37,8 +37,8 @@
   // Prepare the styles for Elements.
   const style = {
     base: {
-      iconColor: '#666ee8',
-      color: '#31325f',
+      iconColor: '#d92955',
+      color: '#3af27e',
       fontWeight: 400,
       fontFamily:
         '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
