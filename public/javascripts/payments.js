@@ -693,10 +693,7 @@
     submitButton.innerText = label;
   };
 
-  const selectCountry = country => {
-    const selector = document.getElementById('country');
-    selector.querySelector(`option[value=${country}]`).selected = 'selected';
-    selector.className = `field ${country}`;
+
 
     // Trigger the methods to show relevant fields and payment methods on page load.
     showRelevantFormFields();
