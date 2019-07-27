@@ -18,19 +18,19 @@ const products = [
   {
     id: 'increment',
     name: 'Increment Magazine',
-    price: 399,
+    price: 199,
     attributes: {issue: 'Issue #3 “Development”'},
   },
   {
     id: 'shirt',
     name: 'Stripe Shirt',
-    price: 999,
+    price: 199,
     attributes: {size: 'Small Standard', gender: 'Woman'},
   },
   {
     id: 'pins',
     name: 'Stripe Pins',
-    price: 799,
+    price: 199,
     attributes: {set: 'Collector Set'},
   },
 ];
