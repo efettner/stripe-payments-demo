@@ -287,15 +287,7 @@
     const country = form.querySelector('select[name=country] option:checked')
       .value;
     const email = form.querySelector('input[name=email]').value;
-    const shipping = {
-      name,
-      address: {
-        line1: form.querySelector('input[name=address]').value,
-        city: form.querySelector('input[name=city]').value,
-        postal_code: form.querySelector('input[name=postal_code]').value,
-        state: form.querySelector('input[name=state]').value,
-        country,
-      },
+    
     };
     // Disable the Pay button to prevent multiple click events.
     submitButton.disabled = true;
